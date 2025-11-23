@@ -35,12 +35,6 @@ const App: React.FC = () => {
                <ProgramCard key={program.id} program={program} />
              ))}
            </div>
-
-           <div className="mt-8 text-center">
-              <button className="bg-[#02182b] text-white px-8 py-2 font-teko text-xl hover:bg-yellow-500 hover:text-black transition-colors uppercase">
-                Ver Todos os Programas
-              </button>
-           </div>
         </section>
 
         {/* Section 4: Top 5 (List) */}
