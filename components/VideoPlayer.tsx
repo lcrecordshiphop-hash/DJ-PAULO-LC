@@ -10,7 +10,7 @@ const VideoPlayer: React.FC = () => {
         <div 
             className="absolute inset-0 bg-cover bg-center"
             style={{ 
-                backgroundImage: 'url(https://picsum.photos/seed/crowd/1920/1080)',
+                backgroundImage: 'url(https://playerv.samcast.com.br/video/arenajs/4/true/)',
                 filter: 'brightness(0.3) blur(2px)'
             }}
         ></div>
