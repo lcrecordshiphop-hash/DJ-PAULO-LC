@@ -43,13 +43,13 @@ const App: React.FC = () => {
            </div>
         </section>
 
-        {/* Section 4: Top 20 (List) */}
-        <section id="top20" className="bg-[#0f172a] text-white py-12">
+        {/* Section 4: Top 5 (List) */}
+        <section id="top5" className="bg-[#0f172a] text-white py-12">
             <div className="container mx-auto px-4">
                 <div className="mb-8 flex items-center gap-3">
                     <div className="h-8 w-1 bg-yellow-500"></div>
                     <h2 className="text-4xl font-teko font-bold text-yellow-500 uppercase">
-                        Top 20 Músicas
+                        Top 5 Músicas
                     </h2>
                 </div>
 
@@ -71,12 +71,6 @@ const App: React.FC = () => {
                             </div>
                         </div>
                     ))}
-                </div>
-                
-                 <div className="mt-8 text-center">
-                    <button className="border border-yellow-500 text-yellow-500 px-8 py-2 font-teko text-xl hover:bg-yellow-500 hover:text-black transition-colors uppercase">
-                        Ver Ranking Completo
-                    </button>
                 </div>
             </div>
         </section>
@@ -101,19 +95,19 @@ const App: React.FC = () => {
                             <div className="w-10 h-10 bg-gray-100 rounded-full flex items-center justify-center text-[#02182b]">
                                 <MapPin size={20} />
                             </div>
-                            <span>Av. Paulista, 1000 - São Paulo, SP</span>
+                            <span>Taubaté, - São Paulo, SP</span>
                         </div>
                          <div className="flex items-center gap-4 text-gray-700">
                             <div className="w-10 h-10 bg-gray-100 rounded-full flex items-center justify-center text-[#02182b]">
                                 <Mail size={20} />
                             </div>
-                            <span>contato@centraldj.com.br</span>
+                            <span>djpaulolc@yahoo.com.br</span>
                         </div>
                          <div className="flex items-center gap-4 text-gray-700">
                             <div className="w-10 h-10 bg-gray-100 rounded-full flex items-center justify-center text-[#02182b]">
                                 <Phone size={20} />
                             </div>
-                            <span>+55 (11) 99999-9999</span>
+                            <span>+55 (12) 99686-4209</span>
                         </div>
                     </div>
                 </div>
