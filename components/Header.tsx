@@ -1,5 +1,5 @@
 import React from 'react';
-import { Headphones, User } from 'lucide-react';
+import { Headphones } from 'lucide-react';
 
 const Header: React.FC = () => {
   return (
@@ -27,9 +27,6 @@ const Header: React.FC = () => {
               </div>
             ))}
           </div>
-          <button className="w-12 h-12 rounded-full border-2 border-yellow-400 flex items-center justify-center hover:bg-yellow-400 hover:text-black transition-colors">
-            <User size={24} />
-          </button>
         </div>
       </div>
     </header>
