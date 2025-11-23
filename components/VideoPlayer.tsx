@@ -27,7 +27,7 @@ const VideoPlayer: React.FC = () => {
                         <span className="absolute bottom-0 right-0 w-3 h-3 bg-green-500 border-2 border-white rounded-full"></span>
                     </div>
                     <div className="flex flex-col">
-                        <span className="font-teko text-2xl font-bold text-black leading-none">DJ PAULO LC ®</span>
+                        <span className="font-teko text-2xl font-bold text-black leading-none">DJMUSICTV ®</span>
                         <span className="text-[10px] text-gray-500 font-bold uppercase tracking-wider">Transmissão Oficial</span>
                     </div>
                 </div>
@@ -36,7 +36,7 @@ const VideoPlayer: React.FC = () => {
                 <div className="relative aspect-video bg-black flex items-center justify-center group">
                     {/* Placeholder for Video Stream */}
                     <img 
-                        src="https://picsum.photos/seed/djmixer/1280/720" 
+                        src="https://playerv.samcast.com.br/video/arenajs/4/true/" 
                         alt="Live Stream" 
                         className={`w-full h-full object-cover transition-opacity duration-1000 ${isMuted ? 'opacity-80' : 'opacity-100'}`}
                     />
