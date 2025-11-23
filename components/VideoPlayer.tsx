@@ -1,5 +1,5 @@
 import React from 'react';
-import { Cast } from 'lucide-react';
+import { Cast, Mail } from 'lucide-react';
 
 const VideoPlayer: React.FC = () => {
   return (
@@ -36,6 +36,19 @@ const VideoPlayer: React.FC = () => {
                     <div className="absolute top-6 right-6 bg-red-600 text-white px-3 py-1 rounded-sm text-[10px] font-bold uppercase tracking-widest animate-pulse flex items-center gap-1.5 shadow-md z-20 pointer-events-none">
                         <span className="w-1.5 h-1.5 bg-white rounded-full block"></span>
                         AO VIVO
+                    </div>
+
+                    {/* Email Overlay */}
+                    <div className="absolute bottom-4 right-4 md:bottom-8 md:right-8 z-20 pointer-events-none">
+                        <div className="bg-black/80 backdrop-blur-sm px-3 py-2 md:p-4 rounded-lg border-l-4 border-yellow-500 shadow-2xl">
+                             <p className="text-yellow-500 text-[10px] md:text-xs font-bold uppercase tracking-widest mb-1">
+                                Envie sua mensagem
+                             </p>
+                             <div className="flex items-center gap-2 text-white">
+                                <Mail size={16} className="md:w-[18px] md:h-[18px]" />
+                                <span className="font-bold text-sm md:text-lg tracking-wide">djpaulolc@yahoo.com.br</span>
+                             </div>
+                        </div>
                     </div>
                 </div>
 
