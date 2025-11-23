@@ -146,7 +146,7 @@ const App: React.FC = () => {
       <footer className="bg-[#02182b] text-white py-8 border-t border-white/10">
         <div className="container mx-auto px-4 text-center">
           <p className="text-gray-400 text-sm mb-4">
-            © 2025 Central DJ TV. Todos os direitos reservados.
+            © 2025 DJMUSICTV. Todos os direitos reservados.
           </p>
           <div className="flex justify-center gap-4 text-sm text-gray-500">
              <a href="#" className="hover:text-yellow-400">Termos de Uso</a>
