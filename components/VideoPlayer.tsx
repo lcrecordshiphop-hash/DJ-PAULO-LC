@@ -23,7 +23,7 @@ const VideoPlayer: React.FC = () => {
                     {/* Iframe for Video Link (Specific Video) */}
                     <iframe 
                         className="w-full h-full absolute inset-0"
-                        src="https://www.youtube.com/embed/watch?v=pLLAqNDMc_U" 
+                        src="https://playerv.samcast.com.br/video/arenajs/7/true/false/#/?playlistId=0&videoId=0" 
                         title="YouTube video player" 
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
                         allowFullScreen
